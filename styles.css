@@ -747,7 +747,7 @@ footer {
   z-index: 1;
   background: #fff;
   width: 86vw;
-  height: 77vh;
+  height: fit-content;
   position: absolute;
   top: 355vh;
   left: 11vw;
@@ -823,7 +823,7 @@ footer {
   z-index: 1;
   background: #fff;
   width: 86vw;
-  height: 83vh;
+  height: fit-content;
   position: absolute;
   top: 355vh;
   left: 11vw;
