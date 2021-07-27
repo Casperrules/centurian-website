@@ -19,10 +19,13 @@ function closePop(){
 
 }
 function openAttigo(){
+    
+    document.getElementById("Attigo-popup").style.visibility = 'visible';
     document.getElementById("attigo").style.visibility='hidden';
     document.getElementById("IMS").style.visibility =  'hidden';
-    document.getElementById("Attigo-popup").style.visibility = 'visible';
 }
 function openIMS(){
     document.getElementById("IMS-popup").style.visibility = 'visible';
+    document.getElementById("attigo").style.visibility='hidden';
+    document.getElementById("IMS").style.visibility =  'hidden';
 }
