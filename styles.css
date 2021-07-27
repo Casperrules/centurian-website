@@ -537,9 +537,11 @@ a {
 }
 .about-us-points .point:hover {
   font-size: 2vw;
-  color: #ef760e;
+  color: #3480e3;
 }
-
+.path .orange:hover {
+  color: #3480e3;
+}
 .products-and-services h3 {
   position: absolute;
   top: 344.13vh;
