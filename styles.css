@@ -573,14 +573,16 @@ a {
   display: block;
   background: #fff;
   width: 38.9vw;
-  height: 77vh;
+  height: fit-content;
+  padding-bottom: 3vh;
   margin-left: 0.4vw;
 }
 .IMS {
   display: block;
   background: #fff;
   width: 38.9vw;
-  height: 77vh;
+  height: fit-content;
+  padding-bottom: 3vh;
   margin-left: 0.4vw;
 }
 

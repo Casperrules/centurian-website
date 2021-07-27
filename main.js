@@ -14,9 +14,13 @@ function closePop(){
     console.log(div2.style.visibility)
     div1.style.visibility = 'hidden';
     div2.style.visibility = 'hidden';
+    document.getElementById("attigo").style.visibility='visible';
+    document.getElementById("IMS").style.visibility = 'visible';
 
 }
 function openAttigo(){
+    document.getElementById("attigo").style.visibility='hidden';
+    document.getElementById("IMS").style.visibility =  'hidden';
     document.getElementById("Attigo-popup").style.visibility = 'visible';
 }
 function openIMS(){
