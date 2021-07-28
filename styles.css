@@ -571,6 +571,7 @@ a {
   box-shadow: 0.1vw rgba(52, 128, 227, 0.08);
 }
 .attigo {
+  padding-top: 5vh;
   display: block;
   background: #fff;
   width: 38.9vw;
@@ -579,6 +580,7 @@ a {
   margin-left: 0.4vw;
 }
 .IMS {
+  padding-top: 5vh;
   display: block;
   background: #fff;
   width: 38.9vw;
@@ -607,7 +609,7 @@ a {
   z-index: 0;
   border-radius: 5%;
   top: 468vh;
-  right: 3.5vw;
+  right: 6vw;
   width: 45vw;
   height: 70vh;
   background-color: #3480e3;
@@ -752,7 +754,7 @@ footer {
   width: 88vw;
   height: 90vh;
   position: absolute;
-  top: 330vh;
+  top: 340vh;
   left: 5vw;
   color: #707070;
   visibility: hidden;
@@ -832,7 +834,7 @@ footer {
   width: 86vw;
   height: 95vh;
   position: absolute;
-  top: 330vh;
+  top: 340vh;
   left: 8vw;
   color: #707070;
   visibility: hidden;
