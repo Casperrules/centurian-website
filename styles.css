@@ -480,6 +480,7 @@ a {
 }
 
 .about-us {
+  padding-top: 5vh;
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -506,6 +507,8 @@ a {
 }
 
 .why-us {
+  padding-top: 8vh;
+  padding-left: 2vw;
   position: absolute;
   top: 236vh;
   right: 1.3vw;
@@ -565,8 +568,6 @@ a {
   justify-content: space-between;
 }
 .cards-container .card {
-  border-style: solid;
-  border-color: rgba(50, 120, 212, 0.1);
   box-shadow: 0.1vw rgba(52, 128, 227, 0.08);
 }
 .attigo {
@@ -607,8 +608,8 @@ a {
   border-radius: 5%;
   top: 468vh;
   right: 3.5vw;
-  width: 47.9vw;
-  height: 73.3vh;
+  width: 45vw;
+  height: 70vh;
   background-color: #3480e3;
 }
 .message-form {
@@ -623,10 +624,10 @@ a {
   border: 0;
   align-items: center;
   background-color: #e7e6e6;
-  width: 41.2vw;
-  height: 10vh;
+  width: 40vw;
+  height: 8vh;
   border-radius: 25px;
-  font-size: 2.3vw;
+  font-size: 1.6vw;
 }
 .message {
   margin-top: 5.8vh;
@@ -634,10 +635,10 @@ a {
   border: 0;
   align-items: center;
   background-color: #f1f1f1;
-  width: 41.2vw;
-  height: 22vh;
+  width: 40vw;
+  height: 20vh;
   border-radius: 25px;
-  font-size: 2.5vw;
+  font-size: 1.6vw;
 }
 .message-form button {
   margin-top: 3.8vh;
@@ -748,11 +749,11 @@ footer {
 .ATTIGO-detail {
   z-index: 1;
   background: #fff;
-  width: 86vw;
-  height: fit-content;
+  width: 88vw;
+  height: 90vh;
   position: absolute;
-  top: 355vh;
-  left: 11vw;
+  top: 330vh;
+  left: 5vw;
   color: #707070;
   visibility: hidden;
 }
@@ -764,7 +765,7 @@ footer {
 }
 .popup-title {
   margin-left: 2vw;
-  font-size: 3vw;
+  font-size: 2.5vw;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -807,7 +808,7 @@ footer {
   align-items: center;
   margin-bottom: 1vh;
   font-size: 2vw;
-  /* justify-content: space-around; */
+  justify-content: left;
   width: 38vw;
   color: #3480e3;
 }
@@ -821,14 +822,18 @@ footer {
   margin-right: 1.5vw;
 }
 
+.IMS-detail .point {
+  width: 60vw;
+}
+
 .IMS-detail {
   z-index: 1;
   background: #fff;
   width: 86vw;
-  height: fit-content;
+  height: 95vh;
   position: absolute;
-  top: 355vh;
-  left: 11vw;
+  top: 330vh;
+  left: 8vw;
   color: #707070;
   visibility: hidden;
 }
