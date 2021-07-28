@@ -752,10 +752,10 @@ footer {
   z-index: 1;
   background: #fff;
   width: 88vw;
-  height: 90vh;
+  height: 86vh;
   position: absolute;
   top: 340vh;
-  left: 5vw;
+  left: 5.5vw;
   color: #707070;
   visibility: hidden;
 }
@@ -834,7 +834,7 @@ footer {
   width: 86vw;
   height: 95vh;
   position: absolute;
-  top: 340vh;
+  top: 335vh;
   left: 8vw;
   color: #707070;
   visibility: hidden;
